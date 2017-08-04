@@ -1,0 +1,132 @@
+body
+{
+width:1000px;
+background-color:LightGrey;
+margin-left:auto;
+margin-right:auto;
+color:DarkSlateGray;
+font-family: 'Open Sans', sans-serif;
+margin-top:0px;
+font-size:20p;
+}
+
+#logo
+{
+	text-align:center;
+	font-size:35px;
+	margin-top:0px;
+	background-color:AliceBlue;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	
+	
+}
+#spis
+{
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	
+}
+#ta
+{
+	text-align:center;
+
+	color:DarkSlateGray;
+	font-size:40px;
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.strona{
+	
+	height:auto;
+	width:1000px;
+	border-left:3px dotted black;
+	border-right:3px dotted black;
+	border-top:3px dotted black;
+	font-size:20px;
+}
+.logoo{
+	text-align:center;
+    background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:250px;
+	height:45px;
+	font-size:35px;
+	
+	
+}
+
+.cnteiner
+{
+	margin-left:25px;
+	padding:0px;
+	color:#303030;
+}
+ h4{
+	 margin:0px;
+	 padding:0px;
+ }
+ a{
+	 text-decoration:none;
+	 color:black;
+ }
+ 
+ a:hover
+ {
+	 color:grey;
+ }
+
+ol{
+	list-style-type:none;
+	float:left;
+	width:1000px;
+	height:33px;
+	font-size:22px;
+	display:inline-block;
+	
+}
+ol > li {
+	
+	float:left;
+	width:300px;
+	background-color:Tomato;
+	border:4px solid white;
+}
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
+}
+
